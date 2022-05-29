@@ -1,49 +1,63 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-image {
   width: 100%;
 }
+
 .header-link {
   font-family: cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { 
+    text-align: center;
+  }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 .tasks-items {
   margin:0;
   padding: 0px;
 }
+
 .task-item, .section-header {
   list-style:none;
 }
+
 .task-input,.new-task-input, .button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -53,10 +67,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
+
 .section-header {
   color: #333;
   font-weight: 700;
@@ -66,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input, .new-task-input {
   margin: 0;
   font-size: 18px;
@@ -78,26 +96,29 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task-input {
   width: 422px;
   margin: 20px 0;
 }
 
 /* Task list */
+
 .task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task-item > * {
   vertical-align: middle;
 }
@@ -105,31 +126,37 @@
 .checkbox-input {
   margin: 0 10px;
 }
+
 .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-input {
   width: 226px
 }
+
 .button-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button-delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed-task-label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .task-input {
   display:none
 }
