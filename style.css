@@ -50,11 +50,14 @@
   padding: 0px;
 }
 
-.task-item, .section-header {
+.task-item, 
+.section-header {
   list-style: none;
 }
 
-.task-input,.new-task-input, .button{
+.task-input,
+.new-task-input,
+.button{
   outline: none;
 }
 
@@ -84,7 +87,8 @@
   text-transform: uppercase;
 }
 
-.task-input, .new-task-input {
+.task-input,
+.new-task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
